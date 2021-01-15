@@ -1,0 +1,88 @@
+/*
+    Selector UNIVERSAL es el "* asterisco"
+*/
+*{
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 20px;
+}
+
+/*Este es el selector body "body es una etiqueta"*/
+body{
+    background-color: blue;
+    background-image: url(./fondos/lente-abstracto.jpg);
+    background-repeat: no-repeat;
+    background-size: 100%;
+    background-attachment: fixed;
+
+}
+
+/* Selector de etiquetas*/
+h1{
+    color: #8B0000;
+    font-size: 50px;
+    text-decoration: underline;
+    font-weight: bold;
+}
+
+a{
+    font-size: 20px;
+    color: #8B0000;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+/*Uso de selectores compuestos*/
+footer a{
+    color: black;
+    text-decoration: underline;
+}
+
+/*Selector de id "identificador"*/
+/*EL id se identifica con el "#" es utilizado para identificar un solo elemento*/
+#descripcion{
+    border: 3px solid black;
+    padding: 10px;
+}
+
+#usuario form{
+    font-weight: bold;
+    border: 5px solid black;
+    margin-top: 15px;
+    margin-bottom: 10px;
+    padding: 20px;
+}
+
+#usuario form *{
+    display: block;
+}
+
+
+/*Selector de clase "Clase"*/
+/*EL clase se identifica con el "." es utilizado para identificar muchos elementos con el mismo nombre*/
+.parrafo{
+    font-size: 25px;
+}
+
+/*Selector por atributos*/
+input[type="text"]{
+    margin-bottom: 15px;
+    padding: 4px;
+    width: 200px;
+}
+
+input[type="submit"]{
+    background: crimson;
+    padding: 6px;
+    font-size: 20px;
+    text-transform: uppercase;
+    border: 1px solid black;
+    cursor: pointer;
+}
+
+p{
+    font-family: 'Roboto', sans-serif;
+    font-style: oblique;
+    font-size: 40px;
+    color: black;
+    /*color: rgb(54, 200, 198);*/
+}
